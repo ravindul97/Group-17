@@ -222,7 +222,7 @@ else{
               <a class="nav-link" href="#">Plan Trip</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="C:/xampp/htdocs/Group17/sithu/about.php">About</a>
+              <a class="nav-link" href="../sithu/about.php">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -425,6 +425,7 @@ else{
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
                     commodi earum, quis voluptate exercitationem ut minima itaque iusto
                     ipsum corrupti!
+                    <button type="submit"></button>
                   </p>
                 </div>
               </td>
