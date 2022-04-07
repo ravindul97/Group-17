@@ -20,6 +20,8 @@
     background: black;
 }
 #navbarSupportedContent > ul > li:nth-child(n) > a{
+    text-decoration: none;
+    font-size: 10px;
     color: white;
     font-size: 1.1rem;
     padding: 0 0.8rem;
@@ -36,6 +38,12 @@
     display: inline-block;
 
 }
+#navbarSupportedContent > button a{
+   color: #fff;
+}
+#navbarSupportedContent > button a:hover{
+    color: #333;
+ }
 #navbarSupportedContent > button:hover{
     color: white;
 }
@@ -64,21 +72,59 @@
     position: relative;
 }
 .mid .hero H2{
+    color: #fff;
     padding-top: 17rem;
     font-size: 50PX;
     padding-bottom: 1.1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .mid .hero a{
     background: #00BF85;
+    color: #000030;
     font-weight: 600;
     padding: 0.7rem  1.7rem;
     border-radius: 15px;
     text-decoration: none;
     display: inline-block;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    border: 2px solid #00BF85;
+    transition: all 0.3s ease;
 }
-
-
+.mid .hero a:hover{
+    color: #fff;
+    background: none;
+    transform: scale(1.05);
+    z-index: 2;;
+}
+.mid .chatbot{
+    position: fixed;
+    margin-left: 1410px;
+    margin-top: 600px;
+    font-size: 4em;
+}
+.mid .chatbot:hover{
+    animation: rotate 0.7s ease-in-out both;
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg) translate3d(0,0,0);
+    }
+    25%{
+        transform:rotate(20deg) translate3d(0,0,0);
+    }
+    50%{
+        transform:rotate(-20deg) translate3d(0,0,0);
+    }
+    75%{
+        transform:rotate(15deg) translate3d(0,0,0);
+    }
+    100%{
+        transform:rotate(0deg) translate3d(0,0,0);
+    }
+}
 
 
 .navbar .max-width{
@@ -98,20 +144,96 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    
 }
 
- /*home Selection Styling*/
- 
- .banner{
-     position: relative;
-     width: 100%;
-     background-size: cover;
-     background: url("train.jpg")no-repeat center;
-     height: 100vh;
- }
+ /*sliding packages*/
 
-
+ .container{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.slick-slide{
+    margin: 0 10px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+.slick-slide img:hover{
+    transform: scale(1.1);
+    z-index: 2;;
+}
+.slick-slide .info{
+    position: relative;
+    z-index: 3;
+    color:#ff0001;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    font-family:'Courier New', Courier, monospace;
+}
+.slick-slide:hover .info{
+    opacity: 2;
+    transform: translateY(0px);
+}
+.slick-slide .info h1{
+    position: relative;
+    margin-top: -100px;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.slick-slide .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25px;
+    transition: 0.4s ease-in-out;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
 
 
  /* contact section styling */
@@ -214,9 +336,8 @@
 	float: left;
 	margin:10px;
     margin-top: 50px;
-    margin-bottom: 130px;
-    height: auto;
-    
+    margin-bottom: 200px;
+    height: auto; 
 }
 .contact .contact-content .left iframe{
     width: 100%;
@@ -230,8 +351,7 @@
     color: #fff;
     min-height: 300px;
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-attachment: fixed; 
 }
 .contact .contact-content .left iframe:hover{
     transform: scale(1.03);
@@ -246,7 +366,7 @@
     display: inline-block;
     height: 60px;
     width: 60px;
-    float: left;
+    /* float: left; */
     margin: 0 5px;
     overflow: hidden;
     background: #fff;
@@ -313,6 +433,7 @@
   .wrapper .button:nth-child(5) span{
     color: #ff0000;
   }
+
   
 
   /*footer*/
@@ -327,7 +448,6 @@
       align-items: center;
       flex-direction: column;
   }
-
   footer .social_icon,
   footer .menu{
       position: relative;
@@ -423,3 +543,47 @@ footer .wave#wave4{
         background-position-x: 1000px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+*{
+	font-family : sans-serif;
+}
+
+.title{
+	text-transform : uppercase;
+	font-size : 28px;
+	margin-left : 58px;
+	margin-top : 55px;
+}
+
+p{
+	margin-left : 40px;
+	margin-right : 40px;
+	font-family : sans-serif;
+	font-size : 16px;
+	line-height : 2;
+	text-align : justify;
+}
+
+h4{
+	margin-left: 40px;
+	font-size : 18px;
+	background-color : black;
+	color : white;
+	width : 200px;
+	padding: 5px;
+	text-align :center;
+}
+
+li{
+	line-height :30px;
+	
+}
+/*Contact details styles*/
+.tablediv img{
+	width :30px;
+	height :30px;
+}
+	
+.tablediv{
+	text-align :center;
+	margin-left:20%;
+}
+
+.tablediv a{
+	text-decoration : none;
+	color :black;
+}
+
+.tablediv a:hover{
+	color : red;
+}
+
+
+/*payments page styles*/
+
+table{
+	line-height : 40px;
+	color:white;
+}
+
+input,select{
+	padding : 3px;
+}
+
+.button1{
+		background-color : blue;
+		color : white;
+		padding : 15px;
+		font-size : 15px;
+		border-radius : 10px;
+}
+
+.buttons{
+		background-color : blue;
+		color : white;
+		padding : 15px;
+		font-size : 15px;
+		border-radius : 10px;
+		margin-left:5%;
+}
+
+.guestCount{
+	width:25px;
+}
+
