@@ -132,8 +132,7 @@
   </head>
   <body>
     <div class="btnclose">
-      <a href="main.php">
-        <button class="btn" value="Close">Close</button>
+       <a href="sithu/about.php" class="btn" value="Close">Close
       </a>
     </div>
     <div class="box">

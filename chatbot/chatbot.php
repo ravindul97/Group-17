@@ -132,7 +132,7 @@
   </head>
   <body>
     <div class="btnclose">
-      <a href="main.php">
+      <a href="../main.php">
         <button class="btn" value="Close">Close</button>
       </a>
     </div>

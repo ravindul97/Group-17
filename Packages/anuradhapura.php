@@ -187,10 +187,15 @@
             <i style="color: red;">*package is per one person.</i>
             <br>
 
+            <a href="../sithu/form.php">
+
             <button type="button">
               <i class="fa fa-shopping-cart"></i>
               Proceed to Pay
             </button>
+            </a>
+
+            
           </div>
         </div>
       </div>
@@ -200,7 +205,7 @@
         <div class="row">
           <div class="columns">
             <div class="items">
-              <a href="kandy.html"><img src="kandy.jpg" alt="" style="text-decoration: none;"/>
+              <a href="kandy.php"><img src="kandy.jpg" alt="" style="text-decoration: none;"/>
                 <p class="related-pkgs">Cool Kandy</p>
             </a> 
 
@@ -221,7 +226,7 @@
           </div>
           <div class="columns">
             <div class="items">
-              <a href="jaffna.html" style="text-decoration: none;">
+              <a href="jaffna.php" style="text-decoration: none;">
                 <img src="jaffna.jpg" alt="" />
                 <p class="related-pkgs">Sunny Jaffna</p>
             </a>
@@ -270,7 +275,7 @@
           </div>
           <div class="columns">
             <div class="items">
-              <a href="trinco.html" style="text-decoration: none;"><img src="trinco.jpg" alt="" /></a>
+              <a href="trinco.php" style="text-decoration: none;"><img src="trinco.jpg" alt="" /></a>
 
               <p class="related-pkgs">Thrilling Trinco</p>
               <div class="rating">

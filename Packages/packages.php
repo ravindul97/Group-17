@@ -213,10 +213,10 @@ else{
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <!-- mx-auto for add items in middle -->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="../main.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Packages</a>
+              <a class="nav-link" href="packages.php">Packages</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Plan Trip</a>
@@ -225,7 +225,7 @@ else{
               <a class="nav-link" href="../sithu/about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="../main.php">Contact</a>
             </li>
             <!-- <li class="nav-item">
               <a
@@ -411,9 +411,7 @@ else{
                   <i class="fas fa-globe-asia"></i>
                   <h3>around the country</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-                    commodi earum, quis voluptate exercitationem ut minima itaque iusto
-                    ipsum corrupti!
+                  Figuring out how to travel the world is no easy feat, especially when you’re trying to do it on a budget or planning world travel with a family. We provide all the facilities to travel all around the country.
                   </p>
                 </div>
               </td>
@@ -422,9 +420,7 @@ else{
                   <i class="fas fa-car"></i>
                   <h3>fastest travel</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-                    commodi earum, quis voluptate exercitationem ut minima itaque iusto
-                    ipsum corrupti!
+                  We provide transports facilities from begining to the endbof the trip. Comfortable vehicles , no delays. We care always about your comfort.
                     <button type="submit"></button>
                   </p>
                 </div>
@@ -434,9 +430,7 @@ else{
                   <i class="fas fa-hiking"></i>
                   <h3>adventures</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-                    commodi earum, quis voluptate exercitationem ut minima itaque iusto
-                    ipsum corrupti!
+                  Inspires the curious to try new destinations, branch out in activities, interact deeply with nature, and experience different cultures in the most respectful way possible.
                   </p>
                 </div>
               </td>

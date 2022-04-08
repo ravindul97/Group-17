@@ -31,11 +31,11 @@
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" name="username" />
+              <input type="text" placeholder="Username" name="username" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" name="password" />
+              <input type="password" placeholder="Password" name="password" required/>
             </div>
             <input type="submit" value="Login" class="btn solid" />
             <p class="social-text">Or Sign in with social platforms</p>
@@ -60,23 +60,23 @@
 
             <div class="input-field">
               <i class="fas fa-signature"></i>
-              <input type="text" placeholder="Name" name="name" requiredc/>
+              <input type="text" placeholder="Name" name="name" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" name="email" requiredc/>
+              <input type="email" placeholder="Email" name="email" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-globe"></i>
-              <input type="text" placeholder="Country" name="country" requiredc/>
+              <input type="text" placeholder="Country" name="country" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" name="uname" requiredc/>
+              <input type="text" placeholder="Username" name="uname" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" name="pword" requiredc/>
+              <input type="password" placeholder="Password" name="pword" required/>
             </div>
             <input type="submit" class="btn" value="Sign up" />
             <p class="social-text">Or Sign up with social platforms</p>

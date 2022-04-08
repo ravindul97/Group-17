@@ -89,7 +89,7 @@ $(document).ready(function(){
         </video>
         <div class="hero">
           <h2 class="animated bounceInRight" style="animation-delay: 0.8s">Travel As Your Dreams</h2>
-          <a  class="animated zoomIn" style="animation-delay: 2s" href="#">Get Started</a>
+          <a  class="animated zoomIn" style="animation-delay: 2s" href="index.php">Get Started</a>
         </div>
         <div class="chatbot">
           <a href="chatbot/chatbot.php"><img src="img/chatbot2.png"></a>
@@ -115,42 +115,42 @@ $(document).ready(function(){
         <img src="img/p2.jpg" alt="logo">
         <div class="info">
           <h1>Ancient Anuradhapura</h1>
-          <a href="#" class="btn">See More</a>
+          <a href="packages/anuradhapura.php" class="btn">See More</a>
         </div>
       </div>
       <div class="slide">
         <img src="img/p3.jpg" alt="logo">
         <div class="info">
           <h1>Amazinf Down-South</h1>
-          <a href="#" class="btn">See More</a>
+          <a href="packages/galle.php" class="btn">See More</a>
         </div>
       </div>
       <div class="slide">
         <img src="img/p4.jpg" alt="logo">
         <div class="info">
           <h1>Cool Kandy</h1>
-          <a href="#" class="btn">See More</a>
+          <a href="packages/kandy.php" class="btn">See More</a>
         </div>
       </div>
       <div class="slide">
         <img src="img/p5.jpg" alt="logo">
         <div class="info">
           <h1>Freezing Nuwara-Eliya</h1>
-          <a href="#" class="btn">See More</a>
+          <a href="packages/Nuwara-Eliya.php" class="btn">See More</a>
         </div>
       </div>
       <div class="slide">
         <img src="img/sigiriya.jpg" alt="logo">
         <div class="info">
           <h1>Sigiriya rock</h1>
-          <a href="#" class="btn">See More</a>
+          <a href="packages/packages.php" class="btn">See More</a>
         </div>
       </div>
       <div class="slide">
         <img src="img/pool.jpg" alt="logo">
         <div class="info">
           <h1>Pool</h1>
-          <a href="#" class="btn">See More</a>
+          <a href="packages/packages.php" class="btn">See More</a>
         </div>
       </div>
   </section>
@@ -236,7 +236,7 @@ $(document).ready(function(){
   <ul class="menu">
     <li><a href="">Home</a></li>
     <li><a href="">packages</a></li>
-    <li><a href="">Plan Trip</a></li>
+    <!-- <li><a href="">Plan Trip</a></li> -->
     <li><a href="">About</a></li>
   </ul>
   <p>© COSC32553  Group  Project 17 | All Rights Reserved</p>
